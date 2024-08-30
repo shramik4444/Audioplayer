@@ -1,0 +1,135 @@
+.bg-cont{
+    background-color: #59123F;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+
+}
+.section-one{
+    display: flex;
+    flex:1 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.profile-pic{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: coral;
+    border-radius:50px ;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-style{
+    height: 50px;
+    width: 75px;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    height: 856px;
+    width:432px;
+    background-color: transparent;
+    
+
+}
+.songs-list{
+    width: 432px;
+    height: 856px;
+}
+
+
+.songs-array{
+    width: 432px;
+    height: 720px;
+    padding: 0%;
+}
+
+.section-three{
+    align-self: center;
+    flex: 1 1;
+}
+
+
+.section-options{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    height: 32px;
+    width: 258px;
+}
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 48px;
+    width: 400px;
+    padding: 8px;
+
+}
+
+.search-bar input {
+    flex: 1;
+    height: 40px; /* Adjust height as needed */
+    padding: 0 12px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border color and style */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    outline: none; /* Remove default focus outline */
+  }
+
+
+.search{
+    width: 90px;
+}
+.player{
+    height: 692px;
+    width : 480px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.seeker{
+    width: 480px;
+}
+.cover-img{
+    height: 480px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.labels{
+    color: white;
+}
+.player-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.play-pause{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.musicProgressBar{
+    width: 400px;
+    margin-bottom: 16px;
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    filter: hue-rotate(20deg);
+}
